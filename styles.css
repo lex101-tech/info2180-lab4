@@ -1,4 +1,58 @@
 body{
-    margin:10px;
+    margin:0;
+    background:#f0f0f0;
+    font-family:Arial,sans-serif;
 }
 
+header{
+    background:#4f8cb8;
+    padding:20px;
+    text-align:center;
+}
+
+header h1{
+    margin:0;
+    color:white;
+    text-transform: uppercase;
+}
+
+main{
+    max-width:700px;
+    margin: 20px auto;
+    padding: 0 20px;
+}
+
+label{
+    font-size: 13px;
+    font-weight: bold;
+}
+
+.search-row{
+    display:flex;
+    margin-bottom:8px;
+}
+
+#search-input{
+    flex:1;
+    padding:10px;
+    font-size:14px;
+    border:1px solid #ddd;
+}
+
+#search-button{
+    padding:10px 10px;
+    background:#4f8cb8;
+    color:white;
+    font-weight:bold;
+    border:none;
+    cursor:pointer;
+}
+
+h2{
+    margin-bottom:0;
+}
+
+#result h3{
+    margin-top:4px;
+    color:#555;
+}
